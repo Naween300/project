@@ -1,19 +1,15 @@
 <?php 
 declare(strict_types =1);
 include 'include/class-autoload.inc.php';
+session_start();
 ?>
 
 <?php
 require"header.php";
 
-session_start();
-echo "User name " . $_SESSION["user"] . ".<br>";
-
-                
+echo "USER NAME " . $_SESSION["user"] . ".<br>";     
+       
 ?>
-
-
-
 
 
 <main>
@@ -21,9 +17,9 @@ echo "User name " . $_SESSION["user"] . ".<br>";
 <div>
 <form action="../includes/Calc.inc.php" method = "post">
 
-<input type="hidden"  name="user" value="<?php $_SESSION["user"]; ?>">
+<input type="hidden"  name="user" value="<?php $_SESSION["user"] ?>">
 
-weight:<input type= "number" name="num1" placeholder="weight">
+weight:<input type= "number" name="num1" placeholder="Weight in KG">
 <br>
 <br>
 Gender:
@@ -34,13 +30,13 @@ Gender:
 
 
 <br>
-Hight:<input type="number" name="num2" placeholder="Hight">
+Hight:<input type="number" name="num2" placeholder="Height in cm">
 <br>
 <br>
 Age:<input type="number" name="num3" placeholder="Age">
 <br>
 <br>
-<button type="submit" name="submit">  Calculate</button>
+<button type="submit" name="submit"> Calculate</button>
 
 </form>
 

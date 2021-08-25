@@ -31,3 +31,5 @@ class Calc{
     }
 
 }
+
+//$weight/($num2*$num2)

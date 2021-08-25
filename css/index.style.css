@@ -41,7 +41,7 @@ body {
     
     font-family: Gadugi;
 font-weight: bold;
-font-size: 53px;
+font-size: 32px;
 text-align: left;
 color: #111;
 
@@ -125,6 +125,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+
 
 }
 

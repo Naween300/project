@@ -21,6 +21,7 @@ include("./header.php");
 <h1>Register to find out your
 calorie budget !</h1>
 <div class="input">
+    
 <form action="../includes/Signup.inc.php" method="post">
 Name <br> <input type= "text" name="un" placeholder="Name" class="name">
 <br>
@@ -33,6 +34,7 @@ Password <br> <input type= "password" name="pw" placeholder="Password" class="na
 <br>
 Repeat Password<br><input type= "password" name="rpw" placeholder="Repeat password"class="name" >
 <br>
+
 <br>
 <div class="action">
 <button type="submit" name="submit" value="signup" class="button">  Register </button>

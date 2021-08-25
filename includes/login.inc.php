@@ -12,8 +12,10 @@
 		$sqluser = "select * from `users` where `user_name`='$un' and `password` = '$pw'";
 		$result = mysqli_query($connect,$sqluser);
 		if(mysqli_num_rows($result)==1){
+
+			
 			while($row = mysqli_fetch_assoc($result)){
-				$status = $row["is_admin"];
+				$uid=$row['uid'];
 			}
 			
 			
@@ -22,8 +24,9 @@
 			
 			
 			
+			
 			if($status == 0){
-				header("Location: http://localhost/project/views/calculator.php");
+				header("Location:../views/home.php");
 			}
 			/*elseif($status ==1){
 				header("Location: ../views/admin.php");

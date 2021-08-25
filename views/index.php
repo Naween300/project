@@ -15,13 +15,11 @@ include("./header.php");
 <div class="container">
     <div class="content-container">
         <div class="left">
-            <h1>Create Your Own Diet Plan</h1>
+            <h1>Daily calorie  </h1>
+            <h1>Calculator</h1>
+</br>
              <p>
-             Just because a diet works 
-             for somebody it doesn't 
-             means it will works for 
-             you, create your own just 
-             for you
+             This Calorie Calculator can be used to estimate the number of calories a person needs to consume each day
              </p>
              <br>
              <div class="actions">
