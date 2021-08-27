@@ -14,15 +14,17 @@ include("./header.php");
     
 </head>
 <body>
-<main>
-    
-<div class="hero-image">
-<div class="form">
-<h1>Register to find out your
-calorie budget !</h1>
-<div class="input">
+
+<div class="title">
+<h1>Register to find out how healthy you are !</h1>
+  </div>   
+<div class="flex-container">
+<div class="box1">
+
+
     
 <form action="../includes/Signup.inc.php" method="post">
+<br>
 Name <br> <input type= "text" name="un" placeholder="Name" class="name">
 <br>
 <br>
@@ -34,23 +36,20 @@ Password <br> <input type= "password" name="pw" placeholder="Password" class="na
 <br>
 Repeat Password<br><input type= "password" name="rpw" placeholder="Repeat password"class="name" >
 <br>
-
-<br>
-<div class="action">
-<button type="submit" name="submit" value="signup" class="button">  Register </button>
+<div class="button">
+<button type="submit" name="submit"class="button primary"> Register</button>
 </div>
+<br>
 
 
 </form>
-</div>
-
 
 
 </div>
 
 </div>
+<div class="description">We are fitnessmake.com. your transformation is our passion.We are your personal trainer, your nutritionist,your supplement expert,your lifting partner,your support group.We provide the technology, tools and products you need to burn fat , build muscle and become your best self.</div>
 
-</main>
     
 </body>
 </html>

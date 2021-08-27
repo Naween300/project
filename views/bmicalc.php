@@ -22,17 +22,18 @@ require"header.php";
 <div class="box1">
 
 <form action="../includes/bmiCalc.inc.php" method = "post">
+<br>
 
 <input type="hidden"  name="user" value="<?php $_SESSION["user"] ?>">
 
-weight<br><input type= "number" name="weight" placeholder="weight in pounds(lbs)">
+Weight<br><input type= "number" name="weight" placeholder="weight in pounds(lbs)">
 <br>
 <br>
 Gender<br> <br>
 <input type="radio" id="male" name="gender" value="male">
-<label for="male">male</label>
+<label for="male">Male</label>
 <input type="radio" id="female" name="gender" value="female">
-<label for="female">female</label><br>  
+<label for="female">Female</label><br>  
 
 
 <br>

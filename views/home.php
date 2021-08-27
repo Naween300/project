@@ -50,9 +50,7 @@ session_start();
   </div>
   
   
-  <div class="description">A Flexible Layout must have a parent element with the display property set to flex.
-
-Direct child elements(s) of the flexible container automatically becomes flexible items.</div>
+  <div class="description">We are fitnessmake.com. your transformation is our passion.We are your personal trainer, your nutritionist,your supplement expert,your lifting partner,your support group.We provide the technology, tools and products you need to burn fat , build muscle and become your best self.</div>
 
 <div class="title">
   <h1>Hi <?php echo $_SESSION ['user'];?> what do you want to calculate today?</h1>

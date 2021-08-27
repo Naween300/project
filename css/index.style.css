@@ -17,7 +17,8 @@ body {
     height: auto;
     padding: 0;
     margin: 0;
-    position: relative;
+    position: absolute;
+    top: 80px;
     padding-top: 30px;
 }
 .container > .content-container {
@@ -39,21 +40,38 @@ body {
 }
 .container > .content-container > .left h1 {
     
-    font-family: Gadugi;
+    position: absolute;
+width: 390px;
+height: 116px;
+left: 126px;
+top: 59px;
+
+
+font-style: normal;
 font-weight: bold;
-font-size: 32px;
-text-align: left;
-color: #111;
+font-size: 42px;
+line-height: 56px;
+
+color: #000000;
 
 }
 .container > .content-container > .left p {
-    
 
-    width: 402px;
-height: 280px;
-font-family: "Segoe UI";
-font-weight: bold;
-font-size: 32px;
+position: absolute;
+width: 498px;
+height: 260px;
+left: 126px;
+top: 210px;
+
+
+font-style: bold;
+font-weight: 100px;
+font-size: 24px;
+line-height: 51px;
+font-size: 30px;
+
+
+   
 letter-spacing: 0.02em;
 line-height: 58px;
 text-align: left;
@@ -61,6 +79,7 @@ color: #313033;
 
 }
 .button {
+
     width: auto;
     height: auto;
     padding: 10px 20px;
@@ -71,12 +90,20 @@ color: #313033;
     cursor: pointer;
 }
 .button.primary {
+    position: absolute;
+left: 126px;
+top: 500px;
     border: 1px solid #0071bc;
     background-color: #0071bc;
+
     color: white;
+    cursor: pointer;
 }
 
 .button.secondary {
+    position: absolute;
+    left: 270px;
+top: 500px;
     color: #0071bc;
     background-color: white;
     border: 1px solid #0071bc;
@@ -101,30 +128,208 @@ color: #313033;
 .container > .content-container > .right > img {
     
     
-width: 740px;
-height: 687px;
-position: absolute;
-bottom:84ch;
-left: 72ch;
-background: transparent;
-background-size: cover;
+    position: absolute;
+    width: 527px;
+height: 410px;
+    left: 720px;
+    top: 120px;
 
 
 }
+.flex-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 318px;
+    height: 396px;
+    left: -10px;
+    top: 333px;
+    
+  }
+  
+  .flex-container > .box1{
 
-.container > .down>.content1{
+    position: absolute;
+    width: 318px;
+    height: 396px;
+    left: 133px;
+    top: 533px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
 
-font-family: "Arial Rounded MT";
+    
+  }
+  .flex-container > .box2{
+
+    position: absolute;
+width: 318px;
+height: 396px;
+left: 561px;
+top: 533px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 22px;
+  }
+
+  .flex-container > .box3{
+
+
+    position: absolute;
+width: 318px;
+height: 396px;
+left: 998px;
+top: 533px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 22px;
+  }
+
+  
+  .flex-container > .box1 >img{
+
+    position: absolute;
+width: 299px;
+height: 163px;
+left: 10px;
+top: 110px;
+  }
+  .flex-container > .box2 >img{
+
+    position: absolute;
+    width: 305px;
+    height: 218px;
+left: 10px;
+top: 80px;
+  }
+  .flex-container > .box3 >img{
+
+    position: absolute;
+    width: 304px;
+    height: 204px;
+left: 10px;
+top: 100px;
+  }
+
+  .calculators> .titel2{
+    position: absolute;
+width: 294px;
+height: 46px;
+left: 573px;
+top: 416px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 42px;
+
+color: #0071BC;
+
+
+}
+.calculators> .titel3{
+    position: absolute;
+width: 311px;
+height: 46px;
+left: 1002px;
+top: 416px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 42px;
+
+color: #0071BC;
+
+
+}
+.calculators> .titel1{
+    position: absolute;
+width: 245px;
+height: 46px;
+left: 170px;
+top: 416px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 42px;
+
+color: #0071BC;;
+
+
+}
+.calculators{
+
+    position: absolute;
+    left: 15px;
+    top: 550px;
+}
+.titel4{
+
+    position: absolute;
+width: 557px;
+height: 46px;
+left: 126px;
+top: 720px;
+
+font-style: normal;
 font-weight: bold;
-font-size: 50px;
-text-align: center;
-color: #111;
+font-size: 41px;
+line-height: 48px;
+}
+.titel5{
 
-background-image: url(../images/Mask\ Group\ 2.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+    position: absolute;
+width: 557px;
+height: 46px;
+left: 126px;
+top: 1420px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 41px;
+line-height: 48px;
+}
+.img1{
+
+    position: absolute;
+left: 12.22%;
+right: 63.75%;
+top: 1520px;
+bottom: 21.19%;
+
+
+}
+.img2{
+
+    position: absolute;
+left: 550px;
+
+top: 1599px;
+bottom: 21.19%;
+position: absolute;
+width: 363px;
+height: 61px;
+
+
+}
+.img3{
+
+    position: absolute;
+left: 990px;
+
+top: 1610px;
+bottom: 21.19%;
+position: absolute;
+width: 363px;
+height: 61px;
 
 
 }

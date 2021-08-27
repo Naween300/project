@@ -50,10 +50,10 @@ body {
 width: 152px;
 height: 46px;
 left: 150px;
-top: 350px;
+top: 361px;
 
 
-font-family: Roboto;
+
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -84,11 +84,11 @@ cursor: pointer;
             width: 1174px;
             height: 210px;
             left: 80px;
-            top: 700px;
-            font-family: Roboto;
+            top: 690px;
+            
           font-style: normal;
           font-weight: normal;
-          font-size: 22px;
+          font-size: 18px;
           line-height: 37px;
           text-align: center;
           
@@ -109,13 +109,4 @@ cursor: pointer;
             text-align: center;
         color: #01253D;
           }
-          .flex-container > .box1> input[type=text]{
-            background: #E8E7E7;
-            border-radius: 25px;
-          }
-          input[type=text] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-          }
+        

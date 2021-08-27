@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+html,
+body {
+    height: auto;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.flex-container > .box1{
+
+    position: absolute;
+    width: 450px;
+    height: 430px;
+    left: 450px;
+    top: 230px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+
+    
+  }
+   .button > {
+    position: absolute;
+    width: 152px;
+    height: 46px;
+    left: 200px;
+    top: 230px;
+
+    
+    
+    
+  
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    }
+    .button.primary {
+        position: absolute;
+width: 152px;
+height: 46px;
+left: 150px;
+top: 360px;
+
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+background: #0071BC;
+border-radius: 29px;
+border: none;
+cursor: pointer;
+    
+    
+    }
+    
+    .title{
+
+        position: absolute;
+        width: 348px;
+        height: 56px;
+        left: 554px;
+        top: 140px;
+        
+        }
+        .description{
+            position: absolute;
+            width: 1174px;
+            height: 210px;
+            left: 80px;
+            top: 680px;
+            
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 37px;
+          text-align: center;
+          
+          color: #001C2E;
+          
+          }        
+          .flex-container > .box1> form{
+
+
+            width: 450px;
+            height: 15px;
+            left: 1053px;
+            top: 576px;
+            font-size: 18px;
+        line-height: 25px;
+        font-weight: bold;
+            
+            text-align: center;
+        color: #01253D;
+          }
+        

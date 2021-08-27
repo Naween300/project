@@ -23,16 +23,13 @@
                         <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="#">Diet</a>
+                        <a href="../views/blog.php">Blog</a>
+                    
+                    <li>
+                        <a href="../views/about.php">About</a>
                     </li>
                     <li>
-                        <a href="#">Workouts</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop</a>
-                    </li>
-                    <li>
-                        <a href="#">Community</a>
+                        <a href="../views/signupform1.php">Register</a>
                     </li>
                     <li>
                         <a href="./login.php">log in</a>

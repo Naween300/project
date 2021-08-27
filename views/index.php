@@ -15,52 +15,63 @@ include("./header.php");
 <div class="container">
     <div class="content-container">
         <div class="left">
-            <h1>Daily calorie  </h1>
-            <h1>Calculator</h1>
+            <h1>Do you know how fit you are?</h1>
+            
 </br>
              <p>
-             This Calorie Calculator can be used to estimate the number of calories a person needs to consume each day
+             Measure your fitness with our fitness calculators. Register with us to get daily fitness tips for free.
+Start your journey today.
              </p>
              <br>
              <div class="actions">
                     <a href="../views/signupform1.php" class="button primary"> Register </a>
-                    <a href="../views/calculator.php" class="button secondary"> Calculate </a>
+                    <a href="../views/signupform1.php" class="button secondary"> Learn more </a>
+                    
                 </div>
         </div>
         <div class="right">
-            <img src="../images/Mask Group 1.png">
-
-        </div>
-        
+            <img src="../images/undraw_workout_gcgu 1.png">
+        </div> 
     </div>
-    
-        <div class="down">
-            
-           
-            <div class="content1">
-            Create your calorie budget
-            <br>
-            based on your body type
-            <br>
-            <br>
-            Chose a diet pattern that your 
-            <br>
-            comfortable with
-            <br>
-            <br>
-            Fill up your calorie budget 
-            <br>
-            with your favorite foods
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            </div>
-        </div>
 </div> 
+
+<div class="flex-container">   
+  <div class="box1" href="../views/bmicalc.php"><img src="../images/undraw_working_out_6psf 1.png">
+</div>
+  <div class="box2"><img src="../images/undraw_fitness_tracker_3033 1.png">
+</div>
+  <div class="box3"><img src="../images/undraw_Stability_ball_b4ia 1.png">
+</div> 
+<div class="calculators">
+<div class="titel1">
+    <h2>BMI calculator</h2> 
+    </div>
+    <div class="titel2">
+    <h2>Calorie Calculator</h2> 
+    </div>
+    <div class="titel3">
+    <h2>Bodyfat Calculator</h2> 
+    </div>
+</div> 
+</div>
+<div class="titel4">
+Health and fitness calculators
+</div>
+<div class="titel5">
+Resources
+</div>
+<div class="img1">
+<img src="../images/image 1.png">
+</div>
+<div class="img2">
+<img src="../images/image 2.png">
+</div>
+<div class="img3">
+<img src="../images/image 3.png">
+</div>
 </body>
 </html>
-
+<?php 
+include("./footer.php")
+?>
 

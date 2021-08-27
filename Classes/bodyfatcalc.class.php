@@ -22,11 +22,11 @@ class bodyfatCalc{
     public function bodyfatCalc(){
      switch ($this->gender) {
          case 'male':
-            $result =495/ 1.0324  - log10(0.19077) *($this->waist- $this->neck)+ log10(0.15456)*$this->num2 -450;
+            $result =(495  / (1.0324 - (log10(0.19077)*($this->waist- $this->neck)) + log10(0.15456)*$this->num2 )) - 450;
             return $result;             
             break;
         case 'female':
-            $result = 495/ 1.07979  - log10(0.35004)*($this->waist- $this->neck)+ log10(0.22100)*$this->num2 -450 ;
+            $result = (495 / ( (1.07979  - log10(0.35004)($this->waist- $this->neck)) + log10(0.22100)*$this->num2  )) - 450 ;
             return $result;             
             break;
         
